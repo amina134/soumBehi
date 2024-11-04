@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0% 10%;
+}
+.logo{
+    width:30%;
+    padding: 1px;
+    position: relative;
+    right: 28%;
+
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+
+.nav-bar li a {
+    display: block;
+    color: rgb(68, 67, 67);
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    gap:20%;
+}
+
+
+.nav-bar li a:hover {
+   color: #ffc4ba;
+}
+.nav-bar li i:hover {
+    color: #ffc4ba;
+ }
+ .postAnAdvert{
+    font-size: 15px;
+    width:100%;
+    white-space:nowrap;
+    color:black;
+    background-color: #ffffff;
+    
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ .faPlus :hover{
+    color: rgb(60, 47, 54);
+ }
+

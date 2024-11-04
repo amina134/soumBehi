@@ -1,0 +1,11 @@
+.sidebar-title{
+    font:20px;
+    margin-bottom: 20px;
+}
+
+.sidebar{
+    width:50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
